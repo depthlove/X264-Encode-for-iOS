@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76FBBF621B8ED77F00CBF9FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FBBF611B8ED77F00CBF9FA /* main.m */; };
+		76FBBF651B8ED77F00CBF9FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FBBF641B8ED77F00CBF9FA /* AppDelegate.m */; };
+		76FBBF681B8ED77F00CBF9FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FBBF671B8ED77F00CBF9FA /* ViewController.m */; };
+		76FBBF6B1B8ED77F00CBF9FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FBBF691B8ED77F00CBF9FA /* Main.storyboard */; };
+		76FBBF6D1B8ED77F00CBF9FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FBBF6C1B8ED77F00CBF9FA /* Images.xcassets */; };
+		76FBBF701B8ED77F00CBF9FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FBBF6E1B8ED77F00CBF9FA /* LaunchScreen.xib */; };
+		76FBBF8B1B8ED7E100CBF9FA /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FBBF8A1B8ED7E100CBF9FA /* libx264.a */; };
+		76FBBF8F1B8ED8C100CBF9FA /* X264Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FBBF8E1B8ED8C100CBF9FA /* X264Manager.m */; };
+		76FBBF921B8ED8E500CBF9FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FBBF911B8ED8E500CBF9FA /* UIKit.framework */; };
+		76FBBF941B8ED8EC00CBF9FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FBBF931B8ED8EC00CBF9FA /* Foundation.framework */; };
+		76FBBF961B8ED8F400CBF9FA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FBBF951B8ED8F400CBF9FA /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76FBBF5C1B8ED77F00CBF9FA /* X264Encode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = X264Encode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FBBF601B8ED77F00CBF9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FBBF611B8ED77F00CBF9FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76FBBF631B8ED77F00CBF9FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76FBBF641B8ED77F00CBF9FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76FBBF661B8ED77F00CBF9FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76FBBF671B8ED77F00CBF9FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76FBBF6A1B8ED77F00CBF9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76FBBF6C1B8ED77F00CBF9FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76FBBF6F1B8ED77F00CBF9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76FBBF871B8ED7E100CBF9FA /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
+		76FBBF881B8ED7E100CBF9FA /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
+		76FBBF8A1B8ED7E100CBF9FA /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		76FBBF8D1B8ED8C100CBF9FA /* X264Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X264Manager.h; sourceTree = "<group>"; };
+		76FBBF8E1B8ED8C100CBF9FA /* X264Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = X264Manager.m; sourceTree = "<group>"; };
+		76FBBF911B8ED8E500CBF9FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76FBBF931B8ED8EC00CBF9FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76FBBF951B8ED8F400CBF9FA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FBBF591B8ED77F00CBF9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FBBF961B8ED8F400CBF9FA /* CoreMedia.framework in Frameworks */,
+				76FBBF941B8ED8EC00CBF9FA /* Foundation.framework in Frameworks */,
+				76FBBF921B8ED8E500CBF9FA /* UIKit.framework in Frameworks */,
+				76FBBF8B1B8ED7E100CBF9FA /* libx264.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FBBF531B8ED77F00CBF9FA = {
+			isa = PBXGroup;
+			children = (
+				76FBBF901B8ED8CF00CBF9FA /* Frameworks */,
+				76FBBF5E1B8ED77F00CBF9FA /* X264Encode */,
+				76FBBF5D1B8ED77F00CBF9FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FBBF5D1B8ED77F00CBF9FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF5C1B8ED77F00CBF9FA /* X264Encode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FBBF5E1B8ED77F00CBF9FA /* X264Encode */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF851B8ED7E100CBF9FA /* x264-iOS */,
+				76FBBF8C1B8ED89F00CBF9FA /* x264Manager */,
+				76FBBF631B8ED77F00CBF9FA /* AppDelegate.h */,
+				76FBBF641B8ED77F00CBF9FA /* AppDelegate.m */,
+				76FBBF661B8ED77F00CBF9FA /* ViewController.h */,
+				76FBBF671B8ED77F00CBF9FA /* ViewController.m */,
+				76FBBF691B8ED77F00CBF9FA /* Main.storyboard */,
+				76FBBF6C1B8ED77F00CBF9FA /* Images.xcassets */,
+				76FBBF6E1B8ED77F00CBF9FA /* LaunchScreen.xib */,
+				76FBBF5F1B8ED77F00CBF9FA /* Supporting Files */,
+			);
+			path = X264Encode;
+			sourceTree = "<group>";
+		};
+		76FBBF5F1B8ED77F00CBF9FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF601B8ED77F00CBF9FA /* Info.plist */,
+				76FBBF611B8ED77F00CBF9FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76FBBF851B8ED7E100CBF9FA /* x264-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF861B8ED7E100CBF9FA /* include */,
+				76FBBF891B8ED7E100CBF9FA /* lib */,
+			);
+			path = "x264-iOS";
+			sourceTree = "<group>";
+		};
+		76FBBF861B8ED7E100CBF9FA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF871B8ED7E100CBF9FA /* x264.h */,
+				76FBBF881B8ED7E100CBF9FA /* x264_config.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		76FBBF891B8ED7E100CBF9FA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF8A1B8ED7E100CBF9FA /* libx264.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		76FBBF8C1B8ED89F00CBF9FA /* x264Manager */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF8D1B8ED8C100CBF9FA /* X264Manager.h */,
+				76FBBF8E1B8ED8C100CBF9FA /* X264Manager.m */,
+			);
+			path = x264Manager;
+			sourceTree = "<group>";
+		};
+		76FBBF901B8ED8CF00CBF9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FBBF951B8ED8F400CBF9FA /* CoreMedia.framework */,
+				76FBBF931B8ED8EC00CBF9FA /* Foundation.framework */,
+				76FBBF911B8ED8E500CBF9FA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FBBF5B1B8ED77F00CBF9FA /* X264Encode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FBBF7F1B8ED77F00CBF9FA /* Build configuration list for PBXNativeTarget "X264Encode" */;
+			buildPhases = (
+				76FBBF581B8ED77F00CBF9FA /* Sources */,
+				76FBBF591B8ED77F00CBF9FA /* Frameworks */,
+				76FBBF5A1B8ED77F00CBF9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X264Encode;
+			productName = X264Encode;
+			productReference = 76FBBF5C1B8ED77F00CBF9FA /* X264Encode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FBBF541B8ED77F00CBF9FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "suntongmian@163.com";
+				TargetAttributes = {
+					76FBBF5B1B8ED77F00CBF9FA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 76FBBF571B8ED77F00CBF9FA /* Build configuration list for PBXProject "X264Encode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FBBF531B8ED77F00CBF9FA;
+			productRefGroup = 76FBBF5D1B8ED77F00CBF9FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FBBF5B1B8ED77F00CBF9FA /* X264Encode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FBBF5A1B8ED77F00CBF9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FBBF6B1B8ED77F00CBF9FA /* Main.storyboard in Resources */,
+				76FBBF701B8ED77F00CBF9FA /* LaunchScreen.xib in Resources */,
+				76FBBF6D1B8ED77F00CBF9FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FBBF581B8ED77F00CBF9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FBBF681B8ED77F00CBF9FA /* ViewController.m in Sources */,
+				76FBBF651B8ED77F00CBF9FA /* AppDelegate.m in Sources */,
+				76FBBF621B8ED77F00CBF9FA /* main.m in Sources */,
+				76FBBF8F1B8ED8C100CBF9FA /* X264Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76FBBF691B8ED77F00CBF9FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FBBF6A1B8ED77F00CBF9FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76FBBF6E1B8ED77F00CBF9FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FBBF6F1B8ED77F00CBF9FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76FBBF7D1B8ED77F00CBF9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		76FBBF7E1B8ED77F00CBF9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		76FBBF801B8ED77F00CBF9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/X264Encode/x264-iOS/include\"",
+				);
+				INFOPLIST_FILE = X264Encode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/X264Encode/x264-iOS/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		76FBBF811B8ED77F00CBF9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/X264Encode/x264-iOS/include\"",
+				);
+				INFOPLIST_FILE = X264Encode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/X264Encode/x264-iOS/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FBBF571B8ED77F00CBF9FA /* Build configuration list for PBXProject "X264Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FBBF7D1B8ED77F00CBF9FA /* Debug */,
+				76FBBF7E1B8ED77F00CBF9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FBBF7F1B8ED77F00CBF9FA /* Build configuration list for PBXNativeTarget "X264Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FBBF801B8ED77F00CBF9FA /* Debug */,
+				76FBBF811B8ED77F00CBF9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FBBF541B8ED77F00CBF9FA /* Project object */;
+}
