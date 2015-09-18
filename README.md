@@ -15,6 +15,8 @@
 
 #### 本工程配套博客文章为：[利用x264将iOS摄像头实时视频流编码为h264文件](http://depthlove.github.io/2015/09/17/use-x264-encode-iOS-camera-video-to-h264/)
 
+---
+
 ##### If you want to know more things, you can view my github blog: [http://depthlove.github.io/](http://depthlove.github.io/).
 ##### 更多内容可参看我的github博客：[http://depthlove.github.io/](http://depthlove.github.io/)
 
